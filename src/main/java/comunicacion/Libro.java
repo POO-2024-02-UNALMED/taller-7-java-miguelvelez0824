@@ -35,11 +35,11 @@ public class Libro extends Escrito {
     }
 
     // get and set
-    public String getCoautor() {
+    public String getCo_autor() {
         return co_autor;
     }
 
-    public void setCoautor(String newCoautor) {
+    public void setCo_autor(String newCoautor) {
         this.co_autor = newCoautor;
     }
 
@@ -63,7 +63,7 @@ public class Libro extends Escrito {
         return interpretacion;
     }
 
-    public void setInterpretacion(String interpretacion) {
-        this.interpretacion = interpretacion;
+    public void setInterpretacion(String newInter) {
+        this.interpretacion = newInter;
     }
 }
